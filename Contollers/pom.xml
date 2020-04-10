@@ -7,4 +7,11 @@
   </parent>
   <groupId>module.controller</groupId>
   <artifactId>Contollers</artifactId>
+  <dependencies>
+  	<dependency>
+  		<groupId>module.service</groupId>
+  		<artifactId>Services</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
 </project>
