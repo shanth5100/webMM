@@ -5,14 +5,18 @@
     <artifactId>multi-modules</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <groupId>module.service</groupId>
-  <artifactId>Services</artifactId>
-  <!-- <name>Prashanth</name> -->
+  <groupId>module.repositoriy</groupId>
+  <artifactId>Repositories</artifactId>
+    
   <dependencies>
   	<dependency>
-  		<groupId>module.repositoriy</groupId>
-  		<artifactId>Repositories</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
+  		<groupId>org.springframework.boot</groupId>
+  		<artifactId>spring-boot-starter-data-jpa</artifactId>
   	</dependency>
+  	<dependency>
+	       <groupId>mysql</groupId>
+	       <artifactId>mysql-connector-java</artifactId>
+	       <scope>runtime</scope>
+	   </dependency>
   </dependencies>
 </project>
